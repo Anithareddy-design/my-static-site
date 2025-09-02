@@ -1,0 +1,10 @@
+# Navigate to your project folder
+cd my-static-site
+
+# Initialize Git and push
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/my-static-site.git
+git push -u origin main
